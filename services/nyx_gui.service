@@ -1,0 +1,12 @@
+[Unit]
+Description=Nyx
+
+[Service]
+WorkingDirectory=/home/nyx_gui
+ExecStart=/home/nyx_gui/nyx_gui.sh 
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
