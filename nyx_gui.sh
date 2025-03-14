@@ -9,4 +9,5 @@ else
     cp $SETTINGS_CONFIG $SETTINGS_BIN
 fi
 cd /home/nyx_gui/bin
-/home/nyx_gui/dotnet/dotnet /home/nyx_gui/bin/NyxGUI.dll
+chmod +x NyxGUI
+/home/nyx_gui/bin/NyxGUI
